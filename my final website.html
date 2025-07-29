@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Store Page Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0e0e10;
+      color: white;
+    }
+  </style>
+</head>
+<body class="font-sans">
+  <!-- Header -->
+  <header class="flex items-center justify-between px-6 py-4 bg-black">
+    <div class="flex items-center space-x-6">
+      <div class="text-xl font-bold">EPIC</div>
+      <nav class="flex space-x-4">
+        <a href="#" class="hover:underline">Store</a>
+        <a href="#" class="hover:underline">Support</a>
+        <a href="#" class="hover:underline">Distribute</a>
+      </nav>
+    </div>
+    <div class="flex items-center space-x-3">
+      <button class="bg-gray-700 px-4 py-1 rounded hover:bg-gray-600">Sign in</button>
+      <button class="bg-blue-600 px-4 py-1 rounded hover:bg-blue-500">Download</button>
+    </div>
+  </header>
+
+  <!-- Search + Nav -->
+  <div class="px-6 py-4 flex items-center space-x-6">
+    <input type="text" placeholder="Search store" class="bg-gray-800 text-white px-4 py-2 rounded w-64">
+    <a href="#" class="text-white hover:underline">Discover</a>
+    <a href="#" class="text-gray-400 hover:underline">Browse</a>
+    <a href="#" class="text-gray-400 hover:underline">News</a>
+  </div>
+
+  <!-- Main Content -->
+  <main class="flex px-6 space-x-6">
+    <!-- Left Side: Banner -->
+    <div class="flex-1">
+      <div class="relative bg-gray-900 rounded-lg overflow-hidden">
+        <img src="/mnt/data/Screenshot 2025-07-10 121209.png" alt="Banner" class="w-full h-auto">
+        <div class="absolute bottom-0 left-0 p-6 bg-gradient-to-t from-black to-transparent w-full">
+          <h2 class="text-2xl font-bold">Dead by Daylight: Five Nights at Freddy's</h2>
+          <p class="mt-2 text-sm text-gray-300">First day in The Fog? Springtrap's chasing you. Available now.</p>
+          <div class="mt-4 flex space-x-4">
+            <button class="bg-white text-black px-4 py-2 rounded">Buy Now</button>
+            <button class="bg-gray-700 px-4 py-2 rounded hover:bg-gray-600">Add to Wishlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side: List -->
+    <aside class="w-64 space-y-4">
+      <div class="hover:bg-gray-800 p-2 rounded cursor-pointer">Black Myth: Wukong</div>
+      <div class="hover:bg-gray-800 p-2 rounded cursor-pointer">Sid Meier’s Civilization VII</div>
+      <div class="hover:bg-gray-800 p-2 rounded cursor-pointer">Dead by Daylight: Five Nights at Freddy's</div>
+      <div class="bg-gray-800 p-2 rounded cursor-pointer">Crystal of Atlan</div>
+      <div class="hover:bg-gray-800 p-2 rounded cursor-pointer">PowerWash Simulator 2</div>
+      <div class="hover:bg-gray-800 p-2 rounded cursor-pointer">The Alters</div>
+    </aside>
+  </main>
+
+  <!-- Discover Section -->
+  <section class="px-6 py-8">
+    <h2 class="text-xl font-bold mb-4">Discover Something New</h2>
+    <!-- Add more content here as needed -->
+  </section>
+</body>
+</html>
